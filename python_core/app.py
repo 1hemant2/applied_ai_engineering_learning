@@ -1,5 +1,5 @@
 # 1. Import parse_age from age_utils.
-from age_utils import parse_age
+from python_core.age_utils import parse_age
 
 # 2. Test each input using parse_age.
 # Print valid ages; catch ValueError and print its message.
