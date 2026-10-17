@@ -34,3 +34,5 @@ print("L1 — A to C:", l1_distance(A, C))
 
 print("L2 — A to B:", l2_distance(A, B))
 print("L2 — A to C:", l2_distance(A, C))
+
+# in l2_distance a bigger diff contribute much more while smaller diff contributed very little
