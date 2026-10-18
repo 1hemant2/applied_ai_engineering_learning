@@ -1,4 +1,4 @@
-from 
+from 2_dot_product
 
 def predict_batch(
     deliveries: list[list[float]],
