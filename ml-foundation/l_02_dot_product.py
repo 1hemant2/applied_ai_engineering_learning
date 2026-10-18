@@ -3,7 +3,7 @@
 # so our calculation for 5 km and 3 stop will be : 5 * 2 + 3 * 4 = 24 min. 
 # we use dot product to claculate the estimate result here 2 min and 4 min are weight and chaging it change the overall estmiate. 
 
-def dot_product(a: list[int], b: list[int]) -> int:
+def dot_product(a: list[float], b: list[float]) -> float:
     if(len(a) != len(b)):
         raise ValueError("vector dimension must be same to calcualte the dot")
     ans: int = 0
@@ -13,8 +13,10 @@ def dot_product(a: list[int], b: list[int]) -> int:
 
     return ans
 
-a = [1, 2]
-b = [2, 4]
-c = [10, 0]
-print(dot_product(a, b))
-print(dot_product(a, c))
+
+if __name__ == "__main__":
+    a = [1, 2]
+    b = [2, 4]
+    c = [10, 0]
+    print(dot_product(a, b))
+    print(dot_product(a, c))
