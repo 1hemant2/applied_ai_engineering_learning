@@ -1,13 +1,38 @@
-# Virtual environments
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
 .venv/
 venv/
 env/
 ENV/
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and local interpreter metadata
+# Keep project-level .python-version files trackable when they define the
+# interpreter used by a project.
 
 # Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Jupyter and local Python tooling state
+.ipynb_checkpoints/
+.python_history
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
 
 # Python packaging/build outputs
 build/
